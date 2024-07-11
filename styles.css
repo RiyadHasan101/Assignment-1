@@ -30,14 +30,13 @@
 .banner-content {
     position: absolute;
     text-align: center;
-    top: 13%;
-    left: 28%;
-    transform: translate(-50px, -50px);
-    max-width: 800px;
 }
 .banner-section {
     position: relative;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .banner-img img {
     width: 100%;
@@ -45,7 +44,6 @@
     display: block;
 }
 .banner-content img {
-        padding-top: 30px;
         padding-bottom: 30px;
 }
 .banner-content h2{
@@ -91,7 +89,42 @@
     color: #0D1321;
     opacity: 70%;
     padding-top: 20px;
+    line-height: 26px;
 }
 .web-section{
     background-color: #fafafa;
+}
+.current-block-1{
+    background-color: #FFFAF5;
+    padding: 30px;
+    border-radius: 5px;
+}
+.current-block-2{
+    background-color: #F0F7FF;
+    padding: 30px;
+    border-radius: 5px;
+}
+.current-block-3{
+    background-color: #FFFDEA;
+    padding: 30px;
+    border-radius: 5px;
+}
+.current-blocks {
+    display: flex;
+    justify-content: space-evenly;
+}
+.vedio-part {
+    text-align: center;
+}
+.vedio-part iframe{
+    border-radius: 20px;
+}
+.footer-section{
+    background-color: #fafafa;
+}
+.footer-content{
+
+}
+.social-link{
+    display: flex;
 }
