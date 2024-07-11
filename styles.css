@@ -208,10 +208,10 @@
     margin-left: 10px;
 }
 .footer-section {
-    background-color: #f8f8f8;
+    background-color: #F0F7FF;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 50px;
     align-items: center;
 }
 .footer-content h3 {
